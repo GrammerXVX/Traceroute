@@ -14,11 +14,11 @@
 ## ⚙️ Сборка
 
 > Используй Visual Studio 2022:
-1. Открой `traceroute.sln`
-2. Собери проект в Release/Debug
-3. Запусти .exe **от имени администратора**
+1. Открыть `traceroute.sln`
+2. Собрать проект в Release/Debug
+3. Запустить .exe **от имени администратора**
 
-Или в консоли (если у тебя `cl.exe`):
+Или в консоли (для `cl.exe`):
 
 ```bash
 cl src\\main.cpp src\\Traceroute.cpp /Fe:traceroute.exe /I src /link ws2_32.lib iphlpapi.lib
